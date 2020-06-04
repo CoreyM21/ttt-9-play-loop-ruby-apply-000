@@ -39,7 +39,7 @@ end
 def play
   turn = 1
   while turn < 10 
-  levitation_force += 1
-  puts "Wingardium Leviosa"
+  turn += 1
+  turn(board)
   end
 end
